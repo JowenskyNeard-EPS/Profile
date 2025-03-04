@@ -52,10 +52,10 @@ export default function Home() {
               <h3 className="text-xl font-mono text-primary dark:text-white">About Me</h3>
               <div className="space-y-4 text-secondary dark:text-gray-400 font-light">
                 <p>
-                Software developer with a passion for building cool, efficient, and scalable solutions. When I’m not coding, you’ll find me hiking new trails, hitting a CrossFit WOD, or exploring new destinations. A tech enthusiast always on the lookout for the latest gadgets to tinker with.
+                Software developer with a passion for building cool, efficient, and scalable solutions. When I'm not coding, you'll find me hiking new trails, hitting a CrossFit WOD, or exploring new destinations. A tech enthusiast always on the lookout for the latest gadgets to tinker with.
                 </p>
                 <p>
-                Let’s create something awesome! 🚀
+                Let's create something awesome! 🚀
                 </p>
                 <div className="flex gap-4 pt-4">
                   <a 
@@ -82,7 +82,7 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {projects.map((project: Project, index) => (
-                <ProjectCard key={index} project={project} />
+                <ProjectCard key={index} project={project} isFirstCard={index === 0} />
               ))}
             </div>
           </section>
