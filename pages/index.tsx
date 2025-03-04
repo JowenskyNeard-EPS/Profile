@@ -52,10 +52,10 @@ export default function Home() {
               <h3 className="text-xl font-mono text-primary dark:text-white">About Me</h3>
               <div className="space-y-4 text-secondary dark:text-gray-400 font-light">
                 <p>
-                Software developer with a passion for building cool, efficient, and scalable solutions. When I'm not coding, you'll find me hiking new trails, hitting a CrossFit WOD, or exploring new destinations. A tech enthusiast always on the lookout for the latest gadgets to tinker with.
+                  Software developer with a passion for building cool, efficient, and scalable solutions. When I'm not coding, you'll find me hiking new trails, hitting a CrossFit WOD, or exploring new destinations. A tech enthusiast always on the lookout for the latest gadgets to tinker with.
                 </p>
                 <p>
-                Let's create something awesome! 🚀
+                  Let's create something awesome! 🚀
                 </p>
                 <div className="flex gap-4 pt-4">
                   <a 
@@ -84,29 +84,6 @@ export default function Home() {
               {projects.map((project: Project, index) => (
                 <ProjectCard key={index} project={project} isFirstCard={index === 0} />
               ))}
-            </div>
-          </section>
-
-          <section className="mb-16">
-            <h3 className="text-3xl font-bold text-gray-800 dark:text-white mb-8">Contact</h3>
-            <div className="max-w-lg mx-auto">
-              <form className="space-y-4">
-                <input
-                  type="email"
-                  placeholder="Your email"
-                  className="w-full p-3 rounded-lg border border-gray-300 dark:border-gray-700 
-                           dark:bg-gray-800 dark:text-white"
-                />
-                <textarea
-                  placeholder="Your message"
-                  className="w-full p-3 rounded-lg border border-gray-300 dark:border-gray-700 
-                           dark:bg-gray-800 dark:text-white h-32"
-                />
-                <button className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 
-                                 transition-colors">
-                  Send Message
-                </button>
-              </form>
             </div>
           </section>
         </main>
