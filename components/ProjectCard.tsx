@@ -15,7 +15,7 @@ const ProjectCard = ({ project, isFirstCard }: ProjectCardProps) => {
     >
       <div className="p-6 sm:p-8 bg-white dark:bg-awwwards-dark rounded-none overflow-hidden w-full max-w-[400px]">
         <div className="flex flex-col h-full">
-          <div className={`flex-grow ${isFirstCard ? 'min-h-[270px]' : 'min-h-[250px]'}`}>
+          <div className={`flex-grow ${isFirstCard ? 'min-h-[250px]' : 'min-h-[250px]'}`}>
             <div className="flex justify-between items-start mb-4">
               <h4 className="text-2xl font-mono text-primary dark:text-white">{project.title}</h4>
               <span className="text-xs font-mono text-secondary dark:text-gray-400">
