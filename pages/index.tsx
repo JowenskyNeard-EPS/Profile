@@ -70,6 +70,12 @@ export default function Home() {
                   >
                     GitHub →
                   </a>
+                  <a 
+                    href="/resume.pdf"
+                    className="text-sm font-mono text-awwwards-blue dark:text-blue-300 hover:underline"
+                  >
+                    Resume →
+                  </a>
                 </div>
               </div>
             </div>
