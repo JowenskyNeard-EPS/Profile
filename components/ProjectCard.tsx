@@ -46,14 +46,6 @@ const ProjectCard = ({ project, isFirstCard }: ProjectCardProps) => {
             >
               Source →
             </a>
-            <a
-              href={project.liveUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm font-mono text-awwwards-blue hover:underline"
-            >
-              Visit Site
-            </a>
           </div>
         </div>
       </div>
