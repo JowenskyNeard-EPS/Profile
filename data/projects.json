@@ -1,0 +1,20 @@
+[
+  {
+    "title": "CRUD",
+    "description": "A full-stack CRUD application for managing events built with React, TypeScript, and Node.js.",
+    "tech": ["React", "Typescript", "NodeJS"],
+    "githubUrl": "https://github.com/jowensky/crud"
+  },
+  {
+    "title": "Finance App",
+    "description": "Track your finances with style using this full-stack finance tracking application built with FastAPI and React!",
+    "tech": ["React", "FastAPI", "SQLAlchemy", "SQLite", "Pydantic"],
+    "githubUrl": "https://github.com/Jowensky/finance-app"
+  },
+  {
+    "title": "Chat Bot",
+    "description": "Runs in CLI mode for interactive chat or API mode via a web server (Flask or similar). Designed for flexibility with environment isolation, easy dependency management, and configurable ports.",
+    "tech": ["Python", "venv"],
+    "githubUrl": "https://github.com/Jowensky/chatbot"
+  }
+] 
