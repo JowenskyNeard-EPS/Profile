@@ -38,14 +38,26 @@ const ProjectCard = ({ project, isFirstCard }: ProjectCardProps) => {
             </div>
           </div>
           <div className="flex justify-between items-center mt-2">
-            <a
-              href={project.githubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm font-mono text-secondary hover:text-awwwards-blue transition-colors"
-            >
-              Source →
-            </a>
+            <div className="flex gap-4">
+              <a
+                href={project.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-mono text-secondary hover:text-awwwards-blue transition-colors"
+              >
+                Source →
+              </a>
+              {project.liveUrl && (
+                <a
+                  href={project.liveUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm font-mono text-secondary hover:text-awwwards-blue transition-colors"
+                >
+                  Live →
+                </a>
+              )}
+            </div>
           </div>
         </div>
       </div>
