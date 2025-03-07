@@ -2,7 +2,7 @@
   {
     "title": "CRUD",
     "description": "A full-stack CRUD application for managing events built with React, TypeScript, and Node.js.",
-    "tech": ["React", "Typescript", "NodeJS"],
+    "tech": ["Tailwind", "React", "Typescript", "NodeJS"],
     "githubUrl": "https://github.com/jowensky/crud"
   },
   {
@@ -16,5 +16,11 @@
     "description": "Runs in CLI mode for interactive chat or API mode via a web server (Flask or similar). Designed for flexibility with environment isolation, easy dependency management, and configurable ports.",
     "tech": ["Python", "venv"],
     "githubUrl": "https://github.com/Jowensky/chatbot"
+  },
+  {
+    "title": "E-Commerce",
+    "description": "This is a modern e-commerce application built with Next.js, React, and Tailwind CSS. It features a responsive design, product catalog, shopping cart functionality, checkout process, and a provider portal for order management.",
+    "tech": ["Tailwind", "NextJS", "React", "Typescript"],
+    "githubUrl": "https://github.com/Jowensky/my-app"
   }
 ] 
